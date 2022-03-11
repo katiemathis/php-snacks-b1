@@ -12,5 +12,5 @@
     $paragraphs = explode('.', $text);
 
     for($i=0;$i<count($paragraphs);$i++) {
-        echo "<p> $paragraphs[$i] </p>";
+        echo "<p> $paragraphs[$i]. </p>";
     }
